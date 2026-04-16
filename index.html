@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Spot Films creates cinematic wedding photography and films with premium packages, fast delivery, and WhatsApp booking."
+    />
+    <title>Spot Films | Wedding Photography & Films</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="assets/couple-portrait.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Spot Films home">
+          <span>Spot</span>
+          <span>Films</span>
+        </a>
+        <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#video">Films</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="nav-cta" href="https://wa.me/916238011974" target="_blank" rel="noreferrer">
+          Book Now
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero" aria-label="Spot Films wedding hero">
+        <div class="hero-bg" data-parallax></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow fade-in">Spot Films</p>
+          <h1 class="fade-in delay-1">Wedding Photography &amp; Films</h1>
+          <p class="hero-subtitle">Capturing Your Forever Moments</p>
+          <a class="button primary hero-button" href="#portfolio">View Portfolio</a>
+        </div>
+      </section>
+
+      <section id="about" class="section about reveal">
+        <div class="section-inner narrow">
+          <p class="section-kicker">Cinematic stories, quietly made</p>
+          <h2>Every frame should feel honest, elegant, and alive.</h2>
+          <div class="soft-divider" aria-hidden="true"></div>
+          <p class="about-copy">
+            We capture your wedding moments with cinematic quality and timeless storytelling.
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio reveal">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Portfolio</p>
+            <h2>Quiet glances. Loud laughter. Everything in between.</h2>
+          </div>
+          <div class="masonry" aria-label="Wedding photography portfolio">
+            <button class="gallery-item tall" type="button" data-lightbox="assets/bride-arikuthu.jpg">
+              <img
+                src="assets/bride-arikuthu.jpg"
+                alt="Bride smiling during a wedding ritual"
+                loading="lazy"
+              />
+            </button>
+            <button class="gallery-item wide" type="button" data-lightbox="assets/kerala-couple.jpg">
+              <img
+                src="assets/kerala-couple.jpg"
+                alt="Kerala wedding couple in traditional attire"
+                loading="lazy"
+              />
+            </button>
+            <button class="gallery-item" type="button" data-lightbox="assets/bridal-radio.jpg">
+              <img
+                src="assets/bridal-radio.jpg"
+                alt="Bride holding a vintage radio"
+                loading="lazy"
+              />
+            </button>
+            <button class="gallery-item tall" type="button" data-lightbox="assets/couple-portrait.jpg">
+              <img src="assets/couple-portrait.jpg" alt="Wedding couple portrait" loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="section packages reveal">
+        <div class="section-inner">
+          <div class="section-heading centered">
+            <p class="section-kicker">Packages</p>
+            <h2>Premium coverage for every celebration.</h2>
+          </div>
+
+          <div class="package-grid">
+            <article class="package-card">
+              <p class="package-label">Basic Package</p>
+              <h3>&#8377;10K &ndash; &#8377;15K</h3>
+              <ul>
+                <li>1 location</li>
+                <li>1 reel</li>
+                <li>10&ndash;15 edited photos</li>
+                <li>1 min highlight video</li>
+                <li>Delivery: 2&ndash;3 days</li>
+              </ul>
+              <a class="button ghost" href="https://wa.me/916238011974?text=I%20am%20interested%20in%20the%20Basic%20Package" target="_blank" rel="noreferrer">
+                Enquire Now
+              </a>
+            </article>
+
+            <article class="package-card popular">
+              <div class="popular-badge">Most Popular</div>
+              <p class="package-label">Standard Package</p>
+              <h3>&#8377;18K &ndash; &#8377;25K</h3>
+              <ul>
+                <li>1&ndash;2 locations</li>
+                <li>2 reels (trending + cinematic)</li>
+                <li>20&ndash;30 edited photos</li>
+                <li>1&ndash;2 min cinematic video</li>
+                <li>Delivery: 2&ndash;4 days</li>
+              </ul>
+              <a class="button primary" href="https://wa.me/916238011974?text=I%20am%20interested%20in%20the%20Standard%20Package" target="_blank" rel="noreferrer">
+                Book Standard
+              </a>
+            </article>
+
+            <article class="package-card">
+              <p class="package-label">Premium Package</p>
+              <h3>&#8377;28K &ndash; &#8377;40K</h3>
+              <ul>
+                <li>2 locations</li>
+                <li>3 reels</li>
+                <li>40+ edited photos</li>
+                <li>2&ndash;3 min cinematic video</li>
+                <li>Color grading + advanced edit</li>
+                <li>Delivery: 3&ndash;5 days</li>
+              </ul>
+              <a class="button ghost" href="https://wa.me/916238011974?text=I%20am%20interested%20in%20the%20Premium%20Package" target="_blank" rel="noreferrer">
+                Enquire Now
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="video" class="section video-section reveal">
+        <div class="section-inner narrow">
+          <div class="section-heading centered">
+            <p class="section-kicker">Wedding Highlights</p>
+            <h2>A film that lets the day breathe.</h2>
+          </div>
+          <div class="video-frame">
+            <video id="highlightVideo" preload="metadata" poster="assets/couple-portrait.jpg" playsinline>
+              <source
+                src="assets/wedding-highlight-landscape.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <button class="play-button" type="button" aria-label="Play wedding highlight video">
+              <span></span>
+            </button>
+          </div>
+          <div class="film-gallery" aria-label="More Spot Films videos">
+            <article class="film-card">
+              <video controls preload="metadata" poster="assets/couple-reel-cover.png" playsinline>
+                <source src="assets/couple-reel.mov" />
+                Your browser does not support the video tag.
+              </video>
+              <h3>Gender Reveal</h3>
+            </article>
+            <article class="film-card">
+              <video controls preload="metadata" poster="assets/couple-reel-second-cover.png" playsinline>
+                <source src="assets/film-gender-reveal-1.mov" />
+                Your browser does not support the video tag.
+              </video>
+              <h3>Couple Reel</h3>
+            </article>
+            <article class="film-card">
+              <video controls preload="metadata" poster="assets/baby-reveal-cover.png" playsinline>
+                <source src="assets/film-gender-reveal-3.mov" />
+                Your browser does not support the video tag.
+              </video>
+              <h3>Baby Reveal</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <div class="section-inner contact-layout">
+          <div class="contact-copy">
+            <p class="section-kicker">Book your date</p>
+            <h2>Tell us the date, place, and the moments you want remembered.</h2>
+            <p>
+              Limited wedding dates are opened each month so every couple gets careful attention.
+            </p>
+            <a class="button whatsapp" href="https://wa.me/916238011974" target="_blank" rel="noreferrer">
+              Contact on WhatsApp
+            </a>
+          </div>
+          <form class="contact-form" aria-label="Wedding enquiry form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" placeholder="Your phone number" autocomplete="tel" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" placeholder="Wedding date, location, and package" required></textarea>
+            </label>
+            <button class="button primary" type="submit">Send Enquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <a class="brand footer-brand" href="#home">
+          <span>Spot</span>
+          <span>Films</span>
+        </a>
+        <p>&copy; 2026 Spot Films. Wedding photography and films.</p>
+      </div>
+      <div class="social-links">
+        <a href="https://www.instagram.com/spotfilms/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://wa.me/916238011974" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+    </footer>
+
+    <div class="booking-popup" data-popup aria-hidden="true">
+      <div class="popup-panel" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+        <button class="popup-close" type="button" aria-label="Close booking popup">&times;</button>
+        <p class="section-kicker">Limited Slots Available</p>
+        <h2 id="popup-title">Book your wedding shoot now &#127909;</h2>
+        <p>Limited slots available</p>
+        <div class="popup-actions">
+          <a class="button whatsapp" href="https://wa.me/916238011974" target="_blank" rel="noreferrer">
+            Contact on WhatsApp
+          </a>
+          <a class="button ghost" href="#packages">View Packages</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="lightbox" data-lightbox-modal aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close preview">&times;</button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
